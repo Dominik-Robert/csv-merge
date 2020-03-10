@@ -24,3 +24,12 @@ optional arguments:
                         Path of the OutputFile
   -v, --verbose         Prints output on both stdout and in file
 ```
+
+### Example
+Here is an Example with the files under Example/
+
+```bash
+python3.7 mergecsv.py -i Example/first.csv -i Example/second.csv -i Example/third.csv -m 0 -m 0 -m 0
+
+# Matches the column index 0 in all files. Which means that this is the key for the comparison of the merge
+```
